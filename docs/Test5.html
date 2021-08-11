@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Todo</title>
+    <style>
+        body{
+            background: whitesmoke;
+            width: 100%;
+            height: 100px;
+            background: url(https://images.hdqwalls.com/download/anime-girls-kantai-collection-gu-3840x2160.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            padding-top: 90px;
+        }
+        .todo{
+            float: left;
+            width: 280px;
+            background: white;
+            height: 500px;
+            margin-left: 285px;
+        }
+        .cre{
+            background: white;
+            float: right;
+            width: 280px;
+            margin-right: 58px;
+            height: 500px;
+        }
+        .edit{
+            background:white;
+            float: right;
+            width: 280px;
+            margin-right: 280px;
+            background: white;
+            height: 500px;
+       }
+       .p1{
+           background:deepskyblue;
+           text-align: center;
+           height: 90px;
+           padding-top: 10px;
+           font-size: 20px;
+           color: white;
+       }
+       .sp{
+            margin-left: 70px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+       }   
+       .wk{
+            margin-left: 80px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+       }
+       
+       .p3{
+           background:deepskyblue;
+           height: 60px;
+           font-size: 20px;
+           color: white;
+       }
+       .name_edit{
+           padding-left: 10px;
+           font-size: 20px;
+           margin-top: 10px;
+       }
+       .name_edit input{
+           width: 250px;
+           height: 25px;
+           margin-bottom: 5px;
+       }
+       .detail_edit input{
+           width: 250px;
+           height: 200px;
+           text-align: left;
+           
+       }
+       .detail_edit{
+           padding-left: 10px;
+           font-size: 20px;
+        }
+       .bt_edit button{
+           font-size: 20px;
+           margin-top: 10px;
+           height: 50px;
+           width: 100px;
+           margin-top: 30px;
+       }
+       .bt_edit{
+            padding-left: 10px;
+       }
+       .p2{
+           background:deepskyblue;
+           height: 60px;
+           font-size: 20px;
+           color: white;
+       }
+       .name_cre{
+           padding-left: 10px;
+           font-size: 20px;
+           margin-top: 10px;
+       }
+       .name_cre input{
+           width: 250px;
+           height: 25px;
+           margin-bottom: 5px;
+       }
+       .detail_cre{
+           padding-left: 10px;
+           font-size: 20px;
+       }
+       .bt_cre{
+           padding-left: 10px;
+       }
+       .bt_cre button{
+           font-size: 20px;
+           margin-top: 10px;
+           height: 50px;
+           width: 260px;
+           background: deepskyblue;
+           margin-top: 30px;
+       }
+       .detail_cre input{
+           width: 250px;
+           height: 200px;
+           text-align: left;
+       }
+       .anh_sp{
+            float: left;
+            margin-top: 30px;
+            padding-left: 20px;
+       }
+       .anh_wk{
+            float: left;
+            margin-top: 20px;
+            padding-left: 20px;
+       }
+       .anh_sp img{
+            width: 50px;
+       }
+       .anh_wk img{
+            width: 50px;
+       }
+       .add img{
+            width: 50px;
+            margin-left: 215px;
+            margin-top: 125px;
+       }
+       .p1 input{
+           margin-top: 10px;
+           width: 200px;
+           height: 26px;
+           text-align: center;
+       }
+    </style>
+</head>
+<body>
+    <div class="todo"> 
+        <div class="p1">
+            Todo List <br>
+            <input type="text" placeholder="Search">
+        </div>
+
+        <div class="anh_sp" style="text-align: left;padding-right: 10px;">
+            <img src="https://st.quantrimang.com/photos/image/2020/05/09/Tich-xanh.png">
+        </div>
+
+        <div class="sp">
+            <div style="font-size: 20px;margin-bottom: 8px;">Shopping </div> 
+            Milk,Eggs,Juice,...
+        </div>
+
+        <hr style="width: 250px;" style="text-align: left;padding-right: 20px;">
+
+         <div class="anh_wk">
+            <img src="https://st.quantrimang.com/photos/image/2020/05/09/Tich-xanh.png">
+        </div> 
+     
+
+        <div class="wk">
+            <div style="font-size: 20px;margin-bottom: 8px;">Work</div>
+            Mcrosoft,Exel,PP,...
+        </div>
+
+        <hr style="width: 250px;">
+
+        <div class="add">
+            <a href="./"><img src="https://media-exp1.licdn.com/dms/image/C4D0BAQGLzfO05so9YA/company-logo_200_200/0/1571662968902?e=2159024400&v=beta&t=QWAqVCswyj7P2X0sL9Rr_bmeap0VoxSh8V5LWuRbM1Q"></a>
+        </div>
+
+    </div>
+    
+    <div class="edit">
+        <div class="p3">
+            <a href="./" style="text-decoration: none;color:white;font-size: 40px;margin-right: 57px;margin-left: 10px;"><span>&#60;</span> </a>
+            Edit Todo <br>
+        </div>
+
+        <div class="name_edit">
+            <div style="margin-bottom: 5px;"> Name</div>
+            <input type="text" placeholder="Enter the name"> <br>
+        </div>
+
+        <div class="detail_edit">
+            <div style="margin-bottom: 5px;">Details</div>
+            <input type="text" placeholder="Enter the detail"> <br>
+        </div>
+
+        <div class="bt_edit">
+            <button style="background-color: deepskyblue;">Save</button>
+            <button style="margin-left: 55px;background-color:orangered;">Delete</button>
+        </div>
+            
+    </div>
+
+    <div class="cre">
+        <div class="p2"> 
+            <a href="./" style="text-decoration: none;color:white;font-size: 40px;margin-right: 47px;margin-left: 10px;"><span>&#60;</span> </a>
+            Create Todo <br>
+        </div>
+
+        <div class="name_cre">
+            <div  style="margin-bottom: 5px;">Name</div>
+            <input type="text" placeholder="Enter the name"> <br>
+        </div>
+
+        <div class="detail_cre">
+            <div style="margin-bottom: 5px;">Details</div>
+            <input type="text" placeholder="Enter the detail"> 
+        </div>  
+        
+        <div class="bt_cre">
+            <button>Save</button>
+        </div>
+
+    </div>
+</body>
+</html>
