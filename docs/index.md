@@ -1,37 +1,241 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Todo</title>
+    <style>
+        body{
+            background: whitesmoke;
+            width: 100%;
+            height: 100px;
+            background: url(https://images.hdqwalls.com/download/anime-girls-kantai-collection-gu-3840x2160.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            padding-top: 90px;
+        }
+        .todo{
+            float: left;
+            width: 280px;
+            background: white;
+            height: 500px;
+            margin-left: 285px;
+        }
+        .cre{
+            background: white;
+            float: right;
+            width: 280px;
+            margin-right: 58px;
+            height: 500px;
+        }
+        .edit{
+            background:white;
+            float: right;
+            width: 280px;
+            margin-right: 280px;
+            background: white;
+            height: 500px;
+       }
+       .p1{
+           background:deepskyblue;
+           text-align: center;
+           height: 90px;
+           padding-top: 10px;
+           font-size: 20px;
+           color: white;
+       }
+       .sp{
+            margin-left: 70px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+       }   
+       .wk{
+            margin-left: 80px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+       }
+       
+       .p3{
+           background:deepskyblue;
+           height: 60px;
+           font-size: 20px;
+           color: white;
+       }
+       .name_edit{
+           padding-left: 10px;
+           font-size: 20px;
+           margin-top: 10px;
+       }
+       .name_edit input{
+           width: 250px;
+           height: 25px;
+           margin-bottom: 5px;
+       }
+       .detail_edit input{
+           width: 250px;
+           height: 200px;
+           text-align: left;
+           
+       }
+       .detail_edit{
+           padding-left: 10px;
+           font-size: 20px;
+        }
+       .bt_edit button{
+           font-size: 20px;
+           margin-top: 10px;
+           height: 50px;
+           width: 100px;
+           margin-top: 30px;
+       }
+       .bt_edit{
+            padding-left: 10px;
+       }
+       .p2{
+           background:deepskyblue;
+           height: 60px;
+           font-size: 20px;
+           color: white;
+       }
+       .name_cre{
+           padding-left: 10px;
+           font-size: 20px;
+           margin-top: 10px;
+       }
+       .name_cre input{
+           width: 250px;
+           height: 25px;
+           margin-bottom: 5px;
+       }
+       .detail_cre{
+           padding-left: 10px;
+           font-size: 20px;
+       }
+       .bt_cre{
+           padding-left: 10px;
+       }
+       .bt_cre button{
+           font-size: 20px;
+           margin-top: 10px;
+           height: 50px;
+           width: 260px;
+           background: deepskyblue;
+           margin-top: 30px;
+       }
+       .detail_cre input{
+           width: 250px;
+           height: 200px;
+           text-align: left;
+       }
+       .anh_sp{
+            float: left;
+            margin-top: 30px;
+            padding-left: 20px;
+       }
+       .anh_wk{
+            float: left;
+            margin-top: 20px;
+            padding-left: 20px;
+       }
+       .anh_sp img{
+            width: 50px;
+       }
+       .anh_wk img{
+            width: 50px;
+       }
+       .add img{
+            width: 50px;
+            margin-left: 215px;
+            margin-top: 125px;
+       }
+       .p1 input{
+           margin-top: 10px;
+           width: 200px;
+           height: 26px;
+           text-align: center;
+       }
+    </style>
+</head>
+<body>
+    <div class="todo"> 
+        <div class="p1">
+            Todo List <br>
+            <input type="text" placeholder="Search">
+        </div>
 
-You can use the [editor on GitHub](https://github.com/MinhChau2001/TestWeb1/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+        <div class="anh_sp" style="text-align: left;padding-right: 10px;">
+            <img src="https://st.quantrimang.com/photos/image/2020/05/09/Tich-xanh.png">
+        </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        <div class="sp">
+            <div style="font-size: 20px;margin-bottom: 8px;">Shopping </div> 
+            Milk,Eggs,Juice,...
+        </div>
 
-### Markdown
+        <hr style="width: 250px;" style="text-align: left;padding-right: 20px;">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+         <div class="anh_wk">
+            <img src="https://st.quantrimang.com/photos/image/2020/05/09/Tich-xanh.png">
+        </div> 
+     
 
-```markdown
-Syntax highlighted code block
+        <div class="wk">
+            <div style="font-size: 20px;margin-bottom: 8px;">Work</div>
+            Mcrosoft,Exel,PP,...
+        </div>
 
-# Header 1
-## Header 2
-### Header 3
+        <hr style="width: 250px;">
 
-- Bulleted
-- List
+        <div class="add">
+            <a href="./"><img src="https://media-exp1.licdn.com/dms/image/C4D0BAQGLzfO05so9YA/company-logo_200_200/0/1571662968902?e=2159024400&v=beta&t=QWAqVCswyj7P2X0sL9Rr_bmeap0VoxSh8V5LWuRbM1Q"></a>
+        </div>
 
-1. Numbered
-2. List
+    </div>
+    
+    <div class="edit">
+        <div class="p3">
+            <a href="./" style="text-decoration: none;color:white;font-size: 40px;margin-right: 57px;margin-left: 10px;"><span>&#60;</span> </a>
+            Edit Todo <br>
+        </div>
 
-**Bold** and _Italic_ and `Code` text
+        <div class="name_edit">
+            <div style="margin-bottom: 5px;"> Name</div>
+            <input type="text" placeholder="Enter the name"> <br>
+        </div>
 
-[Link](url) and ![Image](src)
-```
+        <div class="detail_edit">
+            <div style="margin-bottom: 5px;">Details</div>
+            <input type="text" placeholder="Enter the detail"> <br>
+        </div>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+        <div class="bt_edit">
+            <button style="background-color: deepskyblue;">Save</button>
+            <button style="margin-left: 55px;background-color:orangered;">Delete</button>
+        </div>
+            
+    </div>
 
-### Jekyll Themes
+    <div class="cre">
+        <div class="p2"> 
+            <a href="./" style="text-decoration: none;color:white;font-size: 40px;margin-right: 47px;margin-left: 10px;"><span>&#60;</span> </a>
+            Create Todo <br>
+        </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MinhChau2001/TestWeb1/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+        <div class="name_cre">
+            <div  style="margin-bottom: 5px;">Name</div>
+            <input type="text" placeholder="Enter the name"> <br>
+        </div>
 
-### Support or Contact
+        <div class="detail_cre">
+            <div style="margin-bottom: 5px;">Details</div>
+            <input type="text" placeholder="Enter the detail"> 
+        </div>  
+        
+        <div class="bt_cre">
+            <button>Save</button>
+        </div>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    </div>
+</body>
+</html>
